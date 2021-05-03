@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"os"
 
+	"github.com/dhdersch/mapstructure"
 	"github.com/k0kubun/pp"
-	"github.com/mitchellh/mapstructure"
 )
 
 type BranchRestrictions struct {

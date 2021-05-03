@@ -3,7 +3,7 @@ package bitbucket
 import (
 	"errors"
 
-	"github.com/mitchellh/mapstructure"
+	"github.com/dhdersch/mapstructure"
 )
 
 type BitbucketError struct {

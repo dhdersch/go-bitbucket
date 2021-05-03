@@ -1,7 +1,7 @@
 package bitbucket
 
 import (
-	"github.com/mitchellh/mapstructure"
+	"github.com/dhdersch/mapstructure"
 )
 
 type Workspace struct {

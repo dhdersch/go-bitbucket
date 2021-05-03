@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/dhdersch/mapstructure"
 	"github.com/k0kubun/pp"
-	"github.com/mitchellh/mapstructure"
 )
 
 type Project struct {
