@@ -29,7 +29,7 @@ type Repository struct {
 	Slug        string
 	Full_name   string
 	Description string
-	ForkPolicy  string
+	ForkPolicy  string `mapstructure:"fork_policy"`
 	Language    string
 	Is_private  bool
 	Has_issues  bool
